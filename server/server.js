@@ -11,11 +11,14 @@ dotenv.config();
 
 const app = express();
 
+//Middleware
+app.use(express.json()); // allows us to accept JSON data in the req.body
+
 app.get("/", (req, res) => {
   res.send("Welcome!");
 });
 
-app.post("/products", async (req, res) => {
+app.post("/api_v1/products", async (req, res) => {
   const product = req.body; //user will send this data to the server
 
   if (!product.name || !product.price || !product.image) {
