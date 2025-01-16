@@ -8,6 +8,7 @@ import productRoutes from "./routes/productRoutes.js";
 
 dotenv.config();
 // console.log(process.env.MONGO_URI);
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
@@ -20,7 +21,7 @@ app.get("/", (req, res) => {
 
 app.use("/api_v1/products", productRoutes);
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
   connectDB();
-  console.log("Server listening on port 5000!");
+  console.log("Server listening on port: " + PORT);
 });
