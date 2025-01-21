@@ -3,6 +3,7 @@ Simple MERN application to practice basic concepts
 
 By FreeCodeCamp on YT: https://www.youtube.com/watch?v=O3BUHwfHf84 <br>
 
+Built with: JavaScript, React, MongoDB, ChakraUI
 
 Screenshots: <br>
 ![image](https://github.com/user-attachments/assets/5d457972-50ab-44f4-abbd-0e3656000a26)<br>
