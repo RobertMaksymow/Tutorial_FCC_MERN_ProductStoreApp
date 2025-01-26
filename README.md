@@ -9,9 +9,13 @@ const {products} = useProductStore()
 <br>
 <br>
 Screenshots: <br>
-![image](https://github.com/user-attachments/assets/5d457972-50ab-44f4-abbd-0e3656000a26)<br>
-![image](https://github.com/user-attachments/assets/95494af8-ccd6-4ffe-9dc7-e3766aa960b8)<br>
-![image](https://github.com/user-attachments/assets/1c50ad2a-2219-4a48-98fc-203463ff3dd0)<br>
+![image](https://github.com/user-attachments/assets/ce327422-f72f-42cb-b062-b1a126c6cbf3)
+<br>
+![image](https://github.com/user-attachments/assets/238cccfe-e6a9-409f-8c2b-f95f970bee69)
+<br>
+![image](https://github.com/user-attachments/assets/02a8e030-7f48-49d7-b0e3-82c5451ccc99)
+<br>
+![image](https://github.com/user-attachments/assets/f9698e73-fe1b-412a-94bc-62b1c37eb9ce)
 
 <br>
 
@@ -22,3 +26,5 @@ npm run dev - using nodemon and running script from package.json <br>
 <br>
 To run frontend from /client folder: <br>
 npm run dev
+<br>
+Prepared for production (with NODE_ENV) run from http://localhost:5000/
